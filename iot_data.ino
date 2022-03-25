@@ -44,7 +44,7 @@ void sendData(struct sensorData *environment)
     {
       Serial.println("Connect to ThingSpeak - OK");
       Serial.println("");
-      Serial.println("********************************************");
+      Serial.println("OVA1CMAH25AQTG20");
 
       int hourPtr = timeinfo.tm_hour;
 
